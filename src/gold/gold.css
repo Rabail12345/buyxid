@@ -1,0 +1,362 @@
+
+body{
+    background-color: #1c1902;
+    font-family: 'Nunito Sans', sans-serif;
+    margin:0;
+    padding:0;
+  }
+  
+  .text-center{
+    text-align: center;
+  }
+   .pt-1 .pricingDetails{
+    font-size: 1rem;
+    color: #fff6d6;
+    font-weight: 700;
+    margin-block-end: 0em;
+  } 
+  
+  
+  .pt-1 h2{
+    font-weight: 700;
+      font-size: 2.3rem;
+      color: #fff6d6!important;
+      margin-block-start: 0px;
+      margin-block-end: 0px;
+      line-height: 44px;
+  }
+  
+  .pt-1 .goldPara{
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: #d7c478!important;
+      margin-bottom: 1.2rem;
+      font-size: 2.1rem;
+      margin-block-start: 0.6em;
+  } 
+  
+  @media (min-width: 681px) and (max-width: 770px) {
+    .rowflex{
+    display: block;
+    text-align: center;
+    }
+  }
+  
+  @media (min-width: 771px) {
+  .rowflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }}
+  
+  .goldImage img{
+    height: 594px;
+    width: 335px;
+  }
+  @media (max-width: 900px) and (min-width: 821px){
+    .goldDescDiv{
+        width: 400px;
+    }
+  }
+  @media (max-width: 920px) and (min-width: 770px){
+    .goldDescDiv{
+        width: 350px;
+    }
+  }
+  @media (min-width: 901px){
+    .goldDescDiv{
+    width: 450px;
+  }}
+  .goldDescDiv{
+    border: 2px solid #36311c;
+    border-radius: 50px;
+    padding: 20px 33px;
+    margin-bottom: 8px;
+    margin-top: 14px;
+  }
+  @media (min-width: 681px) and (max-width: 770px) {
+    .goldDescDiv{
+    margin-left:auto;
+    margin-right: auto;
+    width:450px;
+  }
+  .lowerButtonsDiv .btnMonth{
+    padding: 2px 60px;
+    }
+    .lowerButtonsDiv .btnYear{
+        padding: 2px 60px;
+    }}
+
+  @media (max-width: 1199px){
+    .top-goldDesc .p1{
+        font-size: 1.8rem;
+    }
+  }
+  @media (min-width: 1200px){
+    .top-goldDesc .p1{
+        font-size: 2.3rem;
+    }
+  }
+  
+  .top-goldDesc .p1{
+    color: #d7c478!important;
+    font-weight: 600;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+  
+  .top-goldDesc .p2{
+    color: #d6d1be!important;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-block-start: 0.3em;
+  }
+  
+  .bottom-goldDesc ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    border-top: 1px solid #36311c;
+    padding-top: 20px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+  
+  .bottom-goldDesc .goldLi{
+    display: flex;
+    align-items: center;
+  }
+  
+  .bottom-goldDesc .goldLi p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 28px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+  
+  .bottom-goldDesc .goldLi img{
+    width: 18px;
+    margin-right: 1.4vw;
+  }
+
+  .muchMore{
+    margin-left: 45px;
+    font-size: .7rem;
+    color: #fdfdfd!important;
+    font-weight: 100;
+    margin-bottom: 19px;
+    margin-top:2px;
+  }
+  
+  
+  .lowerButtonsDiv{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .lowerButtonsDiv .payTime{
+    color:white;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 6px;
+  }
+  .lowerButtonsDiv .paymentGold{
+    color: #493a00!important;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  .lowerButtonsDiv .priceGold{
+    color: #493a00!important;
+    font-size: .7rem;
+    font-weight: 400;
+  }
+  @media (max-width: 900px) and (min-width: 771px){
+    .lowerButtonsDiv .btnMonth{
+        padding: 2px 50px;
+    }
+  }
+  @media (min-width: 901px){
+    .lowerButtonsDiv .btnMonth{
+        padding: 2px 60px;
+    }
+  }
+  .lowerButtonsDiv .btnMonth{
+      background-color: #fff;
+      border-radius: 70px;
+      cursor: pointer;
+  }
+  
+  .lowerButtonsDiv .btnMonth p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+  @media (max-width: 900px) and (min-width: 771px){
+    .lowerButtonsDiv .btnYear{
+        padding: 2px 50px;
+    }
+  }
+  @media (min-width: 901px){
+    .lowerButtonsDiv .btnYear{
+        padding: 2px 60px;
+    }
+  }
+  .lowerButtonsDiv .btnYear{
+    background: linear-gradient(180deg,#b99831,#f5df77,#b99831);
+    border-radius: 70px;
+    cursor: pointer;
+  }
+  
+  .lowerButtonsDiv .btnYear p{
+    margin-block-start: 0px;
+    margin-block-end: 0px; 
+  }
+  
+  .lowerButtonsDiv .discount{
+      color: #493a00!important;
+      background-color: #fff;
+      font-size: .9rem;
+      font-weight: 900;
+      border-radius: 9px;
+      width: 100px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1vh auto 0;
+  }
+
+  /*mobile view*/
+  .mobile-section .logoItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-section .logoItem .mobileLogo{
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    width:50px;
+    cursor: pointer;
+  }
+  .mobile-section .logoItem .mobileLogoHeading{
+    margin: 12px 0!important;
+    font-weight: 400;
+    letter-spacing: 11px;
+    font-size: 13px;
+    color:white;
+  }
+  .mobile-section .premiumPlan{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    margin-top:2rem;
+    align-items: center;
+  }
+  .mobile-section .premiumPlan h2{
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    color: #fff!important;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .mobile-section .premiumPlan p{
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #e5e2e3!important;
+    font-weight: 400;
+    margin-block-start: 0px;
+  }
+  .mobile-section  .listGroup{
+    padding-inline-start: 0px;
+  }
+
+  .mobile-section  .listGroupItem{
+    display: flex;
+    align-items: center;
+    background: transparent!important;
+    border: none;
+    color: #e5e2e3;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .3px;
+  }
+  .mobile-section  .listGroupItem img{
+    width: 15px;
+    padding-right: 8px
+  }
+  .mobile-section .first-btn{
+    margin-bottom:25px;
+  }
+  .mobile-section .second-btn{
+    margin-bottom: 25px;
+  }
+
+  .mobile-section .pricingPlanBtn{
+    max-width: 80vw;
+    border: 0 solid #5d5c5c;
+    border-radius: 16px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #041521;
+  }
+
+  .mobile-section .pricingPlanBtn .btnInfo{
+    cursor: pointer;
+  }
+
+  .mobile-section .pricingPlanBtn .pricingBtnText{
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile-section .pricingPlanBtn .pricingBtnText p{
+    color:white;
+    margin: 5px 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .mobile-section .pricingPlanBtn .btn-1{
+    background-color: #007a6b!important;
+    color:white;
+    
+  }
+  .mobile-section .pricingPlanBtn .btn-lg{
+    font-weight: 700;
+    border: none;
+    font-size: 14px;
+    letter-spacing: .6px;
+    margin-top: 0.5rem!important;
+    padding: 0.6rem 1rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+  }
+
+  .mobile-section .pricingPlanBtn .btnText{
+    font-size: 11px;
+    letter-spacing: .2px;
+    color: #b4b4b4!important;
+    font-weight: 700;
+    margin: 7px 0 0;
+    margin-block-end: 0px;
+  }
+
+  @media (max-width: 680px){
+    .web-section{
+        display: none !important;
+    }
+  }
+
+  @media (min-width: 681px){
+    .mobile-section{
+        display: none !important;
+    }
+  }
+
+
